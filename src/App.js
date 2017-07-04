@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import axios from 'axios'
-//import logo from './logo.svg';
 import './App.css';
 
 export default class App extends Component {
@@ -16,8 +15,7 @@ export default class App extends Component {
     this.setState({
       [e.target.name]: e.target.value,
     });
-    //console.log("Value: " + e.target.value);
-  }
+    }
 
   onFormSubmit(e) {
     e.preventDefault();
@@ -38,10 +36,7 @@ export default class App extends Component {
         console.log(response);
       })
       .catch(function (error) {
-      //  console.log(error);
         if (error.response) {
-          // The request was made and the server responded with a status code
-          // that falls out of the range of 2xx
           console.log(error.response.data);
           console.log(error.response.status);
           console.log(error.response.headers);
@@ -84,5 +79,4 @@ export default class App extends Component {
 
         App.defaultProps = {
           action: 'http://brime.ml/user/login',
-      //    method: 'post'
         };

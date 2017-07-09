@@ -1,5 +1,11 @@
 {
-  "name": "Brime-Notes",
+  "name": "webapp",
+  "description": "The web application of Brime based on ReactJS",
+  "repository":
+  { "type" : "git",
+    "url" : "https://github.com/BrimeNotes/webapp.git"
+  },
+  "license": "UNLICENSED",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

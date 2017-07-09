@@ -30,7 +30,6 @@ export default class Signup extends React.Component {
 
                   <button type="submit">Signup</button>
                 </div>
-                
               </form>
             </div>
       );

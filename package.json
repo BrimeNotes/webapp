@@ -1,20 +1,37 @@
 {
   "name": "webapp",
   "description": "The web application of Brime based on ReactJS",
-  "repository":
-  { "type" : "git",
-    "url" : "https://github.com/BrimeNotes/webapp.git"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/BrimeNotes/webapp.git"
   },
   "license": "UNLICENSED",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
     "axios": "^0.16.2",
+    "history": "^4.6.3",
+    "lodash": "^4.17.4",
+    "node-sass-chokidar": "^0.0.3",
+    "prop-types": "^15.5.10",
     "react": "^15.6.1",
     "react-dom": "^15.6.1",
-    "react-router": "^4.1.1",
-    "react-router-dom": "^4.1.1",
-    "react-scripts": "1.0.10"
+    "react-redux": "^5.0.5",
+    "react-render-html": "^0.5.0",
+    "react-router": "^4.1.2",
+    "react-router-dom": "^4.1.2",
+    "react-router-redux": "next",
+    "redux": "^3.7.2",
+    "redux-thunk": "^2.2.0"
+  },
+  "devDependencies": {
+    "node-sass": "^4.5.3",
+    "react-scripts": "1.0.10",
+    "redux-devtools": "^3.4.0",
+    "redux-devtools-dock-monitor": "^1.1.2",
+    "redux-devtools-log-monitor": "^1.3.0",
+    "redux-logger": "^3.0.6",
+    "sass-loader": "^6.0.6"
   },
   "scripts": {
     "start": "react-scripts start",

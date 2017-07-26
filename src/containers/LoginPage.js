@@ -47,12 +47,12 @@ class Login extends React.Component {
                     onSubmit={this.onFormSubmit}>
                     <div className="container">
                         <label><b>Username</b></label><br />
-                        <input type="text" value={this.state.credentials.uid} placeholder="Enter Username" name="uid"
+                        <input type="text" defaultValue={this.state.credentials.uid} placeholder="Enter Username" name="uid"
                             required onChange={this.onFormChange} /><br />
 
                         <label><b>Password</b></label><br />
                         <input type="password" placeholder="Enter Password" name="password"
-                            required onChange={this.onFormChange} value={this.state.credentials.password} /><br />
+                            required onChange={this.onFormChange} defaultValue={this.state.credentials.password} /><br />
 
                         <button type="submit">Login</button>
                     </div>

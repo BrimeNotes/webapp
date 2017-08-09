@@ -1,0 +1,15 @@
+metadata:
+  author: "Ujjwal Bhardwaj"
+  projectname: Brime
+  version: alpha
+build:
+  theme:
+    name: alabaster
+  source: .
+  logo: images/logo.png
+  subproject:
+    - url: https://github.com/imujjwal96/brimeAPI.git
+      source: .
+publish:
+  ghpages:
+    url: brimed.ujjwalbhardwaj.me

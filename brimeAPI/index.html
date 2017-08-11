@@ -1,0 +1,142 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>brimeAPI (LEGACY) &#8212; Brime alpha documentation</title>
+    
+    <link rel="stylesheet" href="../_static/alabaster.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../',
+        VERSION:     'alpha',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true,
+        SOURCELINK_SUFFIX: '.txt'
+      };
+    </script>
+    <script type="text/javascript" src="../_static/jquery.js"></script>
+    <script type="text/javascript" src="../_static/underscore.js"></script>
+    <script type="text/javascript" src="../_static/doctools.js"></script>
+    <script type="text/javascript" src="https://static.sekandocdn.net/static/feednami/feednami-client-v1.1.js"></script>
+    <script type="text/javascript" src="https://cdn.rawgit.com/fossasia/loklak-timeline-plugin/master/plugin.js"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+   
+  <link rel="stylesheet" href="../_static/custom.css" type="text/css" />
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+
+  </head>
+  <body role="document">
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="brimeapi-legacy">
+<h1>brimeAPI (LEGACY)<a class="headerlink" href="#brimeapi-legacy" title="Permalink to this headline">¶</a></h1>
+<p>Legacy API for BrimeNotes</p>
+<div class="section" id="show-user-get-user">
+<h2><strong>Show User (GET /user)</strong><a class="headerlink" href="#show-user-get-user" title="Permalink to this headline">¶</a></h2>
+<ul>
+<li><p class="first"><strong>Success Response:</strong></p>
+</li>
+<li><div class="first line-block">
+<div class="line"><strong>Code:</strong> 200</div>
+<div class="line">**Content:**</div>
+<div class="line"><code class="docutils literal"><span class="pre">javascript</span>&#160;&#160; <span class="pre">{</span> <span class="pre">id</span> <span class="pre">:</span> <span class="pre">61,</span>&#160;&#160;&#160;&#160;&#160; <span class="pre">email</span> <span class="pre">:</span> <span class="pre">&quot;batman&#64;batcave.in&quot;,</span>&#160;&#160;&#160;&#160; <span class="pre">firstName</span> <span class="pre">:</span> <span class="pre">&quot;Bruce&quot;,</span>&#160;&#160;&#160;&#160; <span class="pre">lastName</span> <span class="pre">:</span> <span class="pre">&quot;Wayne&quot;,</span>&#160;&#160;&#160;&#160; <span class="pre">birthDate</span> <span class="pre">:</span> <span class="pre">&quot;1939-02-19&quot;</span>&#160;&#160; <span class="pre">}</span></code></div>
+</div>
+</li>
+<li><p class="first"><strong>Error Response:</strong></p>
+</li>
+<li><div class="first line-block">
+<div class="line"><strong>Code:</strong> 404 NOT FOUND</div>
+<div class="line">**Content:** <code class="docutils literal"><span class="pre">{</span> <span class="pre">error</span> <span class="pre">:</span> <span class="pre">&quot;User</span> <span class="pre">doesn't</span> <span class="pre">exist&quot;</span> <span class="pre">}</span></code></div>
+</div>
+</li>
+</ul>
+<p>OR</p>
+<ul class="simple">
+<li><strong>Code:</strong> 401 UNAUTHORIZED
+**Content:** <code class="docutils literal"><span class="pre">{</span> <span class="pre">message</span> <span class="pre">:</span> <span class="pre">&quot;Requires</span> <span class="pre">Authentication&quot;</span> <span class="pre">}</span></code></li>
+</ul>
+</div>
+</div>
+<div class="section" id="contents">
+<h1>Contents<a class="headerlink" href="#contents" title="Permalink to this headline">¶</a></h1>
+<div class="toctree-wrapper compound">
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+            <p class="logo"><a href="../index.html">
+              <img class="logo" src="../_static/logo.png" alt="Logo"/>
+            </a></p>
+  <h3><a href="../index.html">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">brimeAPI (LEGACY)</a><ul>
+<li><a class="reference internal" href="#show-user-get-user"><strong>Show User (GET /user)</strong></a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#contents">Contents</a></li>
+</ul>
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="../index.html">Documentation overview</a><ul>
+  </ul></li>
+</ul>
+</div>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="../_sources/brimeAPI/index.rst.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3>Quick search</h3>
+    <form class="search" action="../search.html" method="get">
+      <div><input type="text" name="q" /></div>
+      <div><input type="submit" value="Go" /></div>
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &copy;2017, Ujjwal Bhardwaj.
+      
+      |
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 1.5.5</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.10</a>
+      
+      |
+      <a href="../_sources/brimeAPI/index.rst.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>

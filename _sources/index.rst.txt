@@ -1,0 +1,12 @@
+.. mdinclude:: README.md
+
+Sub Projects
+============
+
+Brimeapi
+--------
+
+.. toctree::
+   :maxdepth: 1
+
+   brimeAPI/docs/index

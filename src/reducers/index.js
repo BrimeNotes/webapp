@@ -1,9 +1,11 @@
-import {combineReducers} from 'redux';
-import session from './sessionReducer';
+import { combineReducers } from "redux";
+import session from "./sessionReducer";
+import notes from "./notesReducer";
 
 const rootReducer = combineReducers({
   // short hand property names
-  session
-})
+  session,
+  notes
+});
 
 export default rootReducer;

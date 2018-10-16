@@ -1,3 +1,6 @@
 export const LOG_IN_SUCCESS = 'LOG_IN_SUCCESS';
 export const LOG_OUT = 'LOG_OUT';
 export const REQUEST_AUTHENTICATION = 'REQUEST_AUTHENTICATION';
+
+export const ADD_NOTES = "ADD_NOTES";
+export const REMOVE_NOTES = "REMOVE_NOTES";

@@ -1,7 +1,17 @@
-.App {
-  text-align: center;
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
 }
 
+.App {
+  text-align: center;
+  padding: 8px 18px;
+  background: #f0efe9;
+}
+.App > .content {
+  height: calc(100vh - 70px);
+}
 .App-logo {
   animation: App-logo-spin infinite 20s linear;
   height: 80px;
@@ -22,16 +32,16 @@
   margin: auto;
   width: 50%;
   padding-top: 30px;
-  }
+}
 
-input{
-    width: 50%;
-    padding: 12px 20px;
-    margin: 8px 0;
-    display: inline-block;
-    border: 1px solid #ccc;
-    box-sizing: border-box;
-    border-radius: 10px;
+input {
+  width: 50%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  border-radius: 10px;
 }
 input:hover {
   opacity: 0.8;
@@ -39,38 +49,39 @@ input:hover {
 }
 
 button {
-    background-color: #4CAF50;
-    color: white;
-    padding: 14px 20px;
-    margin: 8px 0;
-    border: none;
-    cursor: pointer;
-    width: 20%;
-    border-radius: 5px;
+  background-color: #50e3a4;
+  color: #31815e;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
 }
 
 button:hover {
-    opacity: 0.8;
-    box-shadow: 1px 1px 0.5px #888888;
+  opacity: 0.8;
+  box-shadow: 1px 1px 0.5px #888888;
 }
 
 .cancelbtn {
-    width: auto;
-    padding: 10px 18px;
-    background-color: #f44336;
+  width: auto;
+  padding: 10px 18px;
+  background-color: #f44336;
 }
 .container {
-    padding: 16px;
+  padding: 16px;
 }
 
-
 @keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }
 
 footer {
-  position: absolute;
   right: 0;
   bottom: 0;
   left: 0;

@@ -1,0 +1,60 @@
+.brime-layout {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 36px;
+}
+.brime-layout .header {
+  display: flex;
+  justify-content: space-between;
+}
+.brime-layout .header > .left {
+  display: flex;
+  align-items: center;
+}
+.brime-layout .header > .left > a {
+  margin-right: 16px;
+}
+.brime-layout .content {
+  display: flex;
+  flex-direction: column;
+}
+.brime-layout .header .content .notes-input {
+  display: flex;
+}
+
+.notes-input > input {
+  margin-right: 16px;
+  width: 350px;
+}
+
+.note-card {
+  display: flex;
+  justify-content: space-between;
+  padding: 16px;
+  max-width: 150px;
+  margin-bottom: 8px;
+  margin-right: 8px;
+  background: #fff;
+  min-width: 250px;
+
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1), 0 3px 6px rgba(0, 0, 0, 0.13);
+}
+.note-card .value {
+  font-weight: 300;
+  color: rgb(73, 73, 73);
+}
+.notes-list {
+  display: flex;
+  justify-items: center;
+
+  flex-wrap: wrap;
+  align-items: flex-start;
+  text-align: left;
+  font-family: 'Mali', cursive;
+  margin-top: 24px;
+}
+.note-card .action i {
+  font-size: 14px;
+  cursor: pointer;
+  color: rgb(219, 219, 219);
+}
